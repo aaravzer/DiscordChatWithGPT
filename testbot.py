@@ -33,4 +33,4 @@ async def on_message(message):
         response = completions.choices[0].text
         await message.channel.send(response)
 
-client.run("MTA1NTkxODczODk2MjEyMDc1NA.Gs_5ys.uHp_fS8476v0dNenTY7q2qe6avPw7WWkwoYDaY")
+client.run("TOKEN")
